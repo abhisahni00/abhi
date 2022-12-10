@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Educatational Website</title>
+  </head>
+  <body>
+    
+
+    <nav class="navbar">
+      <!-- LOGO -->
+     <div class="logo"><a href="index.html">EDULIFE</a>
+     </div>
+
+    <div>
+      <form class="ser" role="search">
+        <input class="ser1" type="search" placeholder="search">
+      </form>
+    </div>
+
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        
+        <div class="menu">
+ 
+          <li class="Products">
+            <a href="about us.html">About</a>
+           
+              
+            </ul> 
+          </li>
+
+        
+
+        <li class="Products">
+          <a href="team.html">Team</a>
+        </li>
+
+        <li class="Products">
+          <a href="service.html">Service</a>
+        </li>
+
+        <li class="Products">
+          <a href="contact.html">Contactus</a>
+
+          <li class="Products">
+            <a href="../website/Login.html">Login</a>
+          </li>
+        </li>
+         </div>   
+        </div>
+      </ul>
+    </nav>
+    
+    <!-- contact  -->
+<div class="container">
+   
+  <form action="/form/submit" method="POST">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="name" placeholder="Type your name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="surname" placeholder="Type your last name.."><br><br>
+    <label for="mail">E-mail </label>
+    <input type="text" id="mail" name="e-mail" placeholder="Type your e-mail..">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="italy">Italy</option>
+      <option value="spain">Spain</option>
+      <option value="france">France</option>
+      <option value="india">India</option>
+      <option value="germany">Germany</option>
+      <option value="korea">Korea</option>
+      <option value="china">China</option>
+      <option value="africa">Africa</option>
+      <option value="russia">Russia</option>
+      <option value="bangldesh">Bangldesh</option>
+      <option value="srilanka">Srilanka</option>
+      <option value="nepal">Nepal</option>
+      <option value="others">Others</option>
+    </select>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Type your message.." style="height: 200px"></textarea>
+    <input type="submit" value="Send">
+  </form>
+</div>
+        
+      
+  </body>
+</html>
